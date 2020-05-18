@@ -1,0 +1,151 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="css/1-MyStyle.css" /> <!-- link to the style sheet/page -->
+  <link rel="stylesheet" type="text/css" href="css/3-foodlist.css" /> <!-- link to the style sheet/page -->
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <!-- this class gives the attributes the same style -->
+    <div class="login-container">
+      <div class="login-Header-name-food-list">
+        <h1 class="list-food3">List Your Food Items</h1>
+        <div class="flower-paragraph">
+          <img src="img/Two Small Flowers with Logo 1.png" class="flower-page3" height="300px" width="300px" ; />
+          <p class="paragraph-food-list" style="font-size:25px">Listing your food couldn't be Simpler,
+            just add to the sections you require, food type, Perishable,
+            best/use by date and a picture, and set a meal reminder in the calendar,
+            and send to either my pantry and create your very own online food bank, or Click on our very own sister
+            site, Livin On The Veg, and start sharing.</p>
+
+          <h1 class="Paragraph-end-name" Livin onthe veg><a href="https://www.livinontheveg.co.uk">Visit Livin On The
+              Veg!</a></h1>
+
+        </div>
+
+        <img src="img/Man-in-fridge1.png" class="Man-in-fridge" height="250px" width="250px" ; />
+
+
+
+        <form action="/addfood" method="POST">
+
+
+          <div class="food-list-boxes-buttons">
+            <div class="food-list-container">
+              <div class="food-list-image">
+                <img src="img/Veg-drink-icon.png" class="icon-for-food-list">
+              </div>
+              <div class="food-input-container">
+
+                <div class="input-title">Food Type</div>
+                <input type="text" name="foodType" class="input-box-page3">
+
+                <div class="comment-line">
+
+
+                </div>
+              </div>
+
+            </div>
+
+
+            <div class="food-list-container">
+              <div class="food-list-image">
+                <img src="img/perishable foods.png" class="icon-for-food-list">
+              </div>
+              <div class="food-input-container">
+
+                <div class="input-title">Perishable/ Non Perishable</div>
+                {{!-- <input type="text" name="perishable" class="input-box-page3"> --}}
+                <select id="perishableType" name="perishable">
+                  <option value="perishable">Perishable</option>
+                  <option value="nonPerishable">Non Perishable</option>
+
+                </select>
+                <div class="comment-line">
+
+
+                </div>
+              </div>
+
+            </div>
+
+
+            <div class="food-list-container">
+              <div class="food-list-image">
+                <img src="img/calender-icon.png" class="icon-for-food-list">
+              </div>
+              <div class="food-input-container">
+
+                <div class="input-title">Best Before/ Use By Dates</div>
+                <input type="date" name="sellByDate" class="input-box-page3">
+
+                <div class="comment-line">
+
+
+                </div>
+              </div>
+
+            </div>
+
+            {{!-- <div class="food-list-container">
+  <div class="food-list-image">
+    <img src="img/camera-phone2.png" class="icon-for-food-list">
+  </div>
+  <div class="food-input-container">
+    
+    <div class="input-title">Add Picture</div>
+    <input type="text" class="input-box-page3"> 
+
+    <div class="comment-line">
+
+
+    </div>
+</div>
+
+</div>
+
+<div class="food-list-container">
+  <div class="food-list-image">
+    <img src="img/meal-time-reminder.png" class="icon-for-food-list">
+  </div>
+  <div class="food-input-container">
+    
+    <div class="input-title">Meal Reminder</div>
+    <input type="text" class="input-box-page3"> 
+
+    <div class="comment-line">
+
+
+    </div>
+</div>
+
+</div> --}}
+            <input type="submit" value="save food" class="button button1">
+          </div>
+        </form>
+        <div class="login-button-container buttons-container-page3">
+
+          <!-- <button class="button button1 buttons-page3">Donate To LOTV</button> -->
+          <!-- <h1 class="Paragraph-end-name"Livin onthe veg> -->
+          <button class="button button1" onclick="location.href='4-Pantry-page'">My Pantry</button>
+          <button class="button button2 buttons-page3" onclick="location.href='1-signin'">Log Out</button>
+        </div>
+
+        <h1 class="login-strap-name"> "Your Food At it's Best"</h1>
+
+
+      </div>
+
+
+
+    </div>
+  </div>
+
+
+
+</body>
+
+</html
