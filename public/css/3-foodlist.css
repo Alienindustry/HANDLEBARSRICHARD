@@ -71,6 +71,7 @@ border-radius: 5px;
 .food-input-container{
 
     width: 720px;
+    border: none;
 
 }
 
@@ -92,6 +93,7 @@ height: 6opx;
  background-color: #B1B1FF;
 width: 652px;
  height: 1px;
+ 
 }
 
 .flower-paragraph{
@@ -136,4 +138,16 @@ width: 652px;
     /* height: 100px; */
     font-size: 25px;
     font-family: "Sonsie One", cursive;
+}
+
+.save-food-button{
+
+    width: 800px;
+    margin: 00px;
+    margin-top: 100px;
+}
+
+.no-box{
+
+    border: none;
 }

@@ -1,6 +1,6 @@
 var mongoose = require("mongoose");
 
-const UserSchema = new mongoose.Schema({
+const MealSchema = new mongoose.Schema({
   firstName: {
     type: String,
   },
