@@ -1,36 +1,36 @@
-// var mongoose = require("mongoose");
+var mongoose = require("mongoose");
 
-// const UserSchema = new mongoose.Schema({
-//   fish: {
-//     type: String,
-//   },
-//   meats: {
-//     type: String,
-//   },
+const MealSchema = new mongoose.Schema({
+  fish: {
+    type: String,
+  },
+  meats: {
+    type: String,
+  },
 
-//   vegtables: {
-//     type: String,
-//   },
-//   fruits: {
-//     type: String,
-//   },
-//   dairy: {
-//     type: Date,
-//   },
+  vegtables: {
+    type: String,
+  },
+  fruits: {
+    type: String,
+  },
+  dairy: {
+    type: String,
+  },
 
-//   soups: {
-//     type: String,
-//   },
-//   seasonings: {
-//     type: String,
-//   },
+  soups: {
+    type: String,
+  },
+  seasonings: {
+    type: String,
+  },
 
-//   beverages: {
-//     type: String,
-//   },
-//   vegans: {
-//     type: String,
-//   },
-// });
+  beverages: {
+    type: String,
+  },
+  vegans: {
+    type: String,
+  },
+});
 
-// module.exports = User = mongoose.model("meal", UserSchema);
+module.exports = Meal = mongoose.model("meal", MealSchema);

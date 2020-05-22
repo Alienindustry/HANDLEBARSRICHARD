@@ -7,7 +7,7 @@ var mongoose = require("mongoose");
 var Food = require("./models/Food");
 var bodyParser = require("body-parser");
 var User = require("./models/User");
-// var Meal = require("./models/meal");
+var Meal = require("./models/Meal");
 //use app.set to tell express to use handlebars as our view engine
 app.set("view engine", "hbs");
 //Pass some additional information to handlebars to that is can find our layouts folder, and allow
@@ -50,25 +50,34 @@ app.post("/signup", (req, res) => {
   res.send("usersaved");
 });
 
-// app.post("/addmeal", (req, res) => {
-//   const { fish, meats, vegetables, fruits, dairy, soups, seasonings, beverages, vegans} = req.body;
-//   console.log(firstName);
-//   let meal = new Meal({
-//     fish,
-//     meats,
-//     vegetables,
-//     fruits,
-//     dairy,
-//     soups,
-//     seasonings,
-//     beverages,
-//     vegans
-//   });
+app.post("/addmeal", (req, res) => {
+  const {
+    fish,
+    meats,
+    vegetables,
+    fruits,
+    dairy,
+    soups,
+    seasonings,
+    beverages,
+    vegans,
+  } = req.body;
 
-//   meal.save();
-//   res.send("mealsaved");
-// });
+  let meal = new Meal({
+    fish,
+    meats,
+    vegetables,
+    fruits,
+    dairy,
+    soups,
+    seasonings,
+    beverages,
+    vegans,
+  });
 
+  meal.save();
+  res.send("mealsaved");
+});
 
 app.get("/3-food-list", (req, res) => {
   res.render("3-food-list", { layout: "main" });
