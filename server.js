@@ -1,13 +1,37 @@
 var express = require("express");
 var app = express();
-//Require the handlebars express package
+
+// var mongoose = require('mongoose');
+// var bodyParser = require(body-parser);
+// Require = handlebars ('express package');
 var handlebars = require("express-handlebars");
+// var bcrypt = require('bcryptjs');
+// var passport = require('passport');
+// var session = require('express-session');
+//  require('./middleware/passport')(passport);
+
+// const contact = require("./models/Contact");
+const user = require("./models/User");
 
 var mongoose = require("mongoose");
 var Food = require("./models/Food");
 var bodyParser = require("body-parser");
 var User = require("./models/User");
 var Meal = require("./models/Meal");
+
+// app.use(express.static('public'));
+// app.use(session({
+//     secret: 'mysecret',
+//     resave: true,
+//     saveUninitialized: true
+// }))
+
+// app.use(passport.initialize());
+// app.use(passport.session());
+
+// app.use(bodyParser.json());
+// app.use(bodyParser.urlencoded({ extended: false }))
+
 //use app.set to tell express to use handlebars as our view engine
 app.set("view engine", "hbs");
 //Pass some additional information to handlebars to that is can find our layouts folder, and allow
