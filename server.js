@@ -11,7 +11,7 @@ var handlebars = require("express-handlebars");
 //  require('./middleware/passport')(passport);
 
 // const contact = require("./models/Contact");
-const user = require("./models/User");
+// const user = require("./models/User");
 
 var mongoose = require("mongoose");
 var Food = require("./models/Food");
@@ -71,7 +71,9 @@ app.post("/signup", (req, res) => {
   });
 
   user.save();
-  res.send("usersaved");
+  // res.send("usersaved");
+  // res.sendFile(path.join(__dirname + "/index.hbs"));
+  res.render("3-food-list.hbs");
 });
 
 app.post("/addmeal", (req, res) => {
@@ -100,7 +102,8 @@ app.post("/addmeal", (req, res) => {
   });
 
   meal.save();
-  res.send("mealsaved");
+  // res.send("mealsaved");
+  res.render("3-food-list.hbs");
 });
 
 app.get("/3-food-list", (req, res) => {

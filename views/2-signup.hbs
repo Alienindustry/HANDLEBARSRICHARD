@@ -5,95 +5,90 @@
             <h1 class="account-text">Account Details : Sign Up</h1>
             <img src="img/Two Small Flowers with Logo 1.png" class="my-new-class" height="300pxpx" width="300px" ; />
         </div>
-
-
-
+  
+         {{!-- this form allows the data entered to be sent Posted to the server --}}
         <form action="/signup" method="POST">
+
+             {{!-- this is the div for the page inputs --}}
             <div class="login-inputs">
 
+                 <div class="inputrow-7">
+                    <div class="password-container">
+                        
+                        {{!-- This is the First Name line  --}}
+                       <input name="firstName" type="text" class="password sign-up-boxes" placeholder="First Name">
+                 </div>
+
+                  {{!-- This is the width of text for the First Name --}}
+                 <hr width=70%>
+
+                </div>
+
+                 <div class="inputrow-7">
+
+                     {{!-- The is the container for this last name row --}}
+                    <div class="password-container">
+                        
+                        {{!-- This is the last Name line --}}
+                        <input name="lastName" type="text" class="password sign-up-boxes" placeholder="Last Name">
+                   
+                 </div>
+
+                 {{!--  Last Name line length --}}
+                 <hr width=70%>
+
+                </div>
+
 
                 <div class="inputrow-7">
                     <div class="password-container">
-                        <!-- <img src="img/env-icon1.png" class="icon"/> -->
+                        
+                        {{!-- This is the line to enter your email --}}
+                        <input name="emailAddress" type="text" class="password sign-up-boxes" placeholder="Email Address">
+                 </div>
 
-                        <input name="firstName" type="text" class="password" placeholder="First Name">
-                    </div>
-                    <hr width=66%>
-
-
-
+                 {{!-- Email address line length --}}
+                 <hr width=70%>
 
                 </div>
 
                 <div class="inputrow-7">
                     <div class="password-container">
-                        <!-- <img src="img/env-icon1.png" class="icon"/> -->
 
-                        <input name="lastName" type="text" class="password" placeholder="Last Name">
-                    </div>
-                    <hr width=66%>
+                        {{!-- This is the line to enter your password --}}
+                        <input name="password" type="text" class="password sign-up-boxes" placeholder="Password">
+                 </div>
 
-
-
-
-                </div>
-
-
-                <div class="inputrow-7">
-                    <div class="password-container">
-                        <!-- <img src="img/env-icon1.png" class="icon"/> -->
-
-                        <input name="emailAddress" type="text" class="password" placeholder="Email Address">
-                    </div>
-                    <hr width=66%>
-
-
-
+                 {{!--  Last Name line length --}}
+                 <hr width=70%>
 
                 </div>
 
                 <div class="inputrow-7">
                     <div class="password-container">
-                        <!-- <img src="img/env-icon1.png" class="icon"/> -->
 
-                        <input name="password" type="text" class="password" placeholder="Password">
-                    </div>
-                    <hr width=66%>
+                        {{!-- This is your line to enter confirm password --}}
+                        <input type="text" class="password sign-up-boxes" placeholder="Confirm Password">
+                 </div>
 
-
-
-
-                </div>
-
-
-
-
-                <div class="inputrow-7">
-                    <div class="password-container">
-                        <!-- <img src="img/Padlock Best.png" class="icon"/> -->
-
-                        <input type="text" class="password" placeholder="Confirm Password">
-                    </div>
-                    <hr width=66%>
-
-                    <!-- <div class="password-Reset" id="Forgot-Password">Forgot Password?</div> -->
-
+                 {{!--  Last Name line length --}}
+                 <hr width=70%>
 
                 </div>
             </div>
 
             <div class="login-button-container">
+
+                {{!-- sign up button  --}}
                 <input type="submit" value="signup" class="button button1 button-7">
 
 
             </div>
         </form>
+
+        {{!-- This is the Strap Line --}}
         <h1 class="login-strap-name"> "Your Food At it's Best"</h1>
 
-
     </div>
-
-
-
-</div>
+  </div>
 </div>

@@ -2,54 +2,52 @@
   <!-- this class gives the attributes the same style -->
   <div class="login-container">
     <div class="login-Header">
+
+      {{!-- This gives us the strapline and Flower image --}}
       <h1 class="page-name-1">Forget Me Not.</h1>
-      <img src="img/Two Small Flowers with Logo 1.png" class="my-new-class" height="350pxpx" width="350px" ; />
-    </div>
+    <img src="img/Two Small Flowers with Logo 1.png" class="my-new-class" height="350pxpx" width="350px" ; />
+</div>
     <div class="login-inputs">
 
 
       <div class="inputrow">
+
         <div class="password-container">
-          <img src="img/env-icon1.png" class="icon" />
 
-          <input type="text" class="password" placeholder="Username">
-        </div>
-        <hr width=90%>
+          {{!-- This is for the envelope icon --}}
+        <img src="img/env-icon1.png" class="icon" />
 
+        {{!-- This code is for Username entry   --}}
+      <input type="text" class="password" placeholder="Username">
+    </div>
+        <hr width=80%>
+</div>
 
-
-
-      </div>
-
-
-
-
-      <div class="inputrow">
+     <div class="inputrow">
         <div class="password-container">
+
+          {{!-- This line gives us the padlock icon --}}
           <img src="img/Padlock Best.png" class="icon" />
 
+          {{!-- This code is for the password entry --}}
           <input type="password" class="password" placeholder="Password">
-        </div>
-        <hr width=90%>
+</div>
+        <hr width=80%>
 
-        <!-- <div class="password-Reset" id="Forgot-Password">Forgot Password?</div> -->
+         {{!-- This line gives us a ref when the Forgot password is clicked --}}
         <div class="Forgot Password" onclick="location.href='8-reset-password'">Forgot Password?</div>
 
       </div>
     </div>
-
+      
+      {{!-- This is the container for the Sign in and Sign up buttons --}}
     <div class="login-button-container">
       <button class="button button1" onclick="location.href='3-food-list'">Sign In </button>
-      <button class="button button2" onclick="location.href='7-accounts-page'">Sign Up </button>
+      <button class="button button2" onclick="location.href='2-signup'">Sign Up </button>
 
     </div>
-
+     
+     {{!-- This is the Strap Line --}}
     <h1 class="login-strap-name"> "Your Food At it's Best"</h1>
-
-
-    {{!-- </div  --}}
-
-  </div>
-
-
+ </div>
 </div>

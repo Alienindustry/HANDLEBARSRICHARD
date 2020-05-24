@@ -1,17 +1,7 @@
 .flower-page3 {
 padding-top: -200px;   
-/* padding-left: 1300px; */
 
 }
-
-/* .buttons-container-page3 {
-    padding-top: 350px*/
-
-
-    
-
-     
-
 
 .input-box-page3{
     border: none;
@@ -23,12 +13,8 @@ padding-top: -200px;
 }
 
 .login-name-page3{
-    /* position: absolute; */
-/* top: 120; */
-/* left: 605; */
-padding-top: 110px;
+   padding-top: 110px;
   width: px;
-  /* height: 100px; */
   font-size: 35px;
   font-family: "Sonsie One", cursive;
   
@@ -38,19 +24,11 @@ padding-top: 110px;
 
 .Man-in-fridge{
     position: absolute;
-    /* top: 400px; */
     left: 80px;
     width: px;
     height: px;
 
-
-
-
 }
-
-
-
-
 
 .food-list-container{
 
@@ -58,20 +36,17 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin-top: 25px;
-    width: 800px;
-    height: 70px;
-    /* font-family "Sonsie One", cursive; */
+width: 800px;
+height: 70px;
 background-color: white;
 border: 1px solid grey;
 border-radius: 5px;
 
-
 }
 
 .food-input-container{
-
-    width: 720px;
-    border: none;
+width: 720px;
+border: none;
 
 }
 
@@ -84,70 +59,58 @@ height: 6opx;
 
 .food-list-image{
 
-    width: 80px;
-    padding: 15px;
+width: 80px;
+padding: 15px;
 }
 
 .comment-line{
 
- background-color: #B1B1FF;
+background-color: #B1B1FF;
 width: 652px;
- height: 1px;
+height: 1px;
  
 }
 
 .flower-paragraph{
 
-    position: absolute;
-    top: 40px;
-    right: 140px;
-    width: 300px;
+position: absolute;
+top: 40px;
+right: 140px;
+width: 300px;
 
 
 }
 
 .paragraph-food-list{
 
-    font-size: 35px;
-    height: 25px;
+font-size: 35px;
+height: 25px;
   
 }
 
 .Paragraph-end-name{
-    padding-top: 310px;
-    height: 50px;
-    top: 400px; 
-    left: 80px;
-    
-    font-size: 17px;
-    font-family: "Sonsie One", cursive;
-    /* font-family: Arial, Helvetica, sans-serif; width, height and font type */
-    
-
-    
-
+padding-top: 310px;
+height: 50px;
+top: 400px; 
+left: 80px;
+font-size: 17px;
+font-family: "Sonsie One", cursive;
+   
 }
 
 .list-food3{
-
-    /* position: absolute;  */
-    /* top: 120; */
-    /* left: 605; */
-    padding-top: 110px;
-    width: px;
-    /* height: 100px; */
-    font-size: 25px;
-    font-family: "Sonsie One", cursive;
+padding-top: 110px;
+width: px;
+font-size: 25px;
+font-family: "Sonsie One", cursive;
 }
 
 .save-food-button{
-
-    width: 800px;
-    margin: 00px;
-    margin-top: 100px;
+width: 800px;
+margin: 00px;
+margin-top: 100px;
 }
 
 .no-box{
-
-    border: none;
+border: none;
 }

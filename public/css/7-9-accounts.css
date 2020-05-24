@@ -137,13 +137,7 @@ body {
   align-items: baseline;
 }
 
-/*.input {
-  width: 400px;
-  height: 40px;
-  vertical-align: middle;
-  border-radius: 8px;
-  /*box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* this gives the button a shadow illusion 
-}*/
+
 .password-reset {
   height: 0;
   padding-left: 0px;
@@ -175,15 +169,7 @@ body {
   font-family: "Sonsie One", cursive;
 }
 
-/*.login-Header-name-food-list{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0px;
-  height: 0px;
-  font-size: 85px;
-  font-family: "Sonsie One", cursive;
-}*/
+
 
 .login-inputs {
   width: 800px;
@@ -323,25 +309,7 @@ body {
   position: absolute;
 }
 
-/* .login-button-container-page-10 {
-  background-color: #b1b1ff;
 
-  border-radius: 10px;
-  color: black;
-  padding: 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  width: 150px;
-  font-size: 25px;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 50px 500px;
-  cursor: pointer;
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
-  margin-bottom: 50px;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-} */
 
 .Logins-button-container-page-10 {
   /* background-color: #b1b1ff; */
@@ -360,11 +328,11 @@ body {
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   margin-bottom: 50px;
-  /* box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  
 }
 
 .reset-button-container-page-8 {
-  /* height: 60px; */
+  
   margin: 50;
 }
 
@@ -413,7 +381,6 @@ body {
   font-family: "Sonsie One", cursive;
   text-align: center;
   color: black;
-  /* margin: 200px; */
 }
 
 .wellcome-back-page-9 {
@@ -440,7 +407,6 @@ body {
   width: 150px;
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
-  /* margin: 50px 500px; */
   cursor: pointer;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;

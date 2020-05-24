@@ -1,73 +1,68 @@
 .named-ingrediants {
-    font-size: 25px;
-    padding-bottom: 30px;
-  
-    /* font-family: "Sonsie One", cursive; */
-  }
-  
-  .container-Meal-maker {
-    background-color: #efefc1;
-    /* height: 1080px; */
-    width: 1920px;
-  }
-  
-  .login-container-page-6 {
-    /* margin-right: 400px; */
-    margin-left: 300px;
-  }
-  
-  .man-hold-plate {
-    padding-left: 290px;
-    top: 160px;
-    position: absolute;
-  }
-  
-  .Man-in-fridge-page-6 {
-    position: absolute;
-    top: 700px;
-    left: 1500px;
-  }
-  
-  .food-list-boxes-buttons-page-6 {
-    overflow: scroll;
-    /* display: flex; */
-    flex-direction: row;
-    height: 1000px;
-    flex-wrap: wrap;
-  } 
+  font-size: 25px;
+  padding-bottom: 30px;
 
-  .Login-name-6{
+  
+}
 
-    padding-top: 170px;
-    font-family: "Sonsie One", cursive;
-  }
+.container-Meal-maker {
+  background-color: #efefc1;
+  
+  width: 1920px;
+}
 
-  .save-meal-box{
+.login-container-page-6 {
+  
+  margin-left: 300px;
+}
 
-    width: 600px;
-    border-radius: 8px;
-    background-color: #b1b1ff;
-    border: none;
-    color: black;
-    padding: 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    min-width: 150px;
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 50px 100px;
-    cursor: pointer;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    margin-bottom: 50px;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    color: black;
-    transform: scale(0.8);
-    
-    }
+.man-hold-plate {
+  padding-left: 290px;
+  top: 160px;
+  position: absolute;
+}
 
-    /* .button-active {
-      transform: scale(0.8);
-      
-    } */
+.Man-in-fridge-page-6 {
+  position: absolute;
+  top: 700px;
+  left: 1500px;
+}
+
+.food-list-boxes-buttons-page-6 {
+  overflow: scroll;
+  
+  flex-direction: row;
+  height: 1000px;
+  flex-wrap: wrap;
+}
+
+.Login-name-6 {
+  padding-top: 170px;
+  font-family: "Sonsie One", cursive;
+}
+
+.save-meal-box {
+  width: 600px;
+  border-radius: 8px;
+  background-color: #b1b1ff;
+  border: none;
+  color: black;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  min-width: 150px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 50px 100px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  margin-bottom: 50px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: black;
+}
+.save-meal-box:active {
+  transform: scale(0.8);
+}
+

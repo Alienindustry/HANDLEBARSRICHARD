@@ -1,11 +1,10 @@
 .container {
-  /* background colour for screen */
   background-color: #efefc1;
-  height: 1400px;
+  height: 1700px;
   width: 1920px;
 }
-/* code to give overall colour to screen with no borders  */
-body {
+
+.body {
   margin: 0px;
 }
 .flower-image {
@@ -13,9 +12,7 @@ body {
   width: 604.3px;
 }
 .icon {
-  /* envelope icon*/
   margin: 0 !important;
-  /* padding: 0 !important; */
   width: 50px;
   display: inline-block !important;
   vertical-align: middle;
@@ -24,7 +21,6 @@ body {
 }
 
 .login.img {
-  /* margin Set up to auto on screen*/
   margin-left: 0;
   margin-right: 10;
   display: block;
@@ -53,19 +49,15 @@ body {
 }
 
 .login {
-  /* relative position of flower image using flex for the basic item  */
   position: relative;
   display: flex;
   width: 1920px;
   height: 1081px;
-  /*justify-content: center;*/
-  /*align-items: center;*/
   padding-left: 100px;
 }
 
 .fmn-text {
-  /* length height of text */
-  width:1150px;
+  width: 1150px;
   height: 500px;
   padding-right: 100px;
   padding-bottom: 100;
@@ -75,7 +67,7 @@ body {
 .first-paragraph {
   margin-bottom: 40px;
   font-size: 30px;
-  font-family: Arial, Helvetica, sans-serif; /* width, height and font type */
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .second-paragraph {
@@ -92,16 +84,15 @@ body {
 }
 
 .strap-name {
-  /* strap name and how it is configured */
   width: 900px;
   height: 100px;
   font-size: 25px;
   font-family: "Sonsie One", cursive;
   margin-left: 105px;
 }
-/* click button with its configuration and given a transition time to go to next page 0.4s */
+
 .button {
-  background-color: #b1b1ff; /* lavender */
+  background-color: #b1b1ff;
   border: none;
   color: black;
   padding: 15px;
@@ -110,10 +101,10 @@ body {
   display: inline-block;
   min-width: 150px;
   font-size: 25px;
-  font-family: Arial, Helvetica, sans-serif; /* font type  */
+  font-family: Arial, Helvetica, sans-serif;
   margin: 50px 100px;
-  cursor: pointer; /* type of operation  */
-  -webkit-transition-duration: 0.4s; /* Safari */
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   margin-bottom: 50px;
 }
@@ -124,7 +115,7 @@ body {
 }
 
 .button {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* this gives the button a shadow illusion*/
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: black;
 }
 
@@ -133,26 +124,16 @@ body {
   align-items: baseline;
 }
 
-/*.input {
-  width: 400px;
-  height: 40px;
-  vertical-align: middle;
-  border-radius: 8px;
-  /*box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* this gives the button a shadow illusion 
-}*/
 .password-reset {
   height: 0;
   padding-left: 0px;
   padding-top: 0px;
   font-family: Arial, Helvetica, sans-serif;
-  
 }
 
 .hr {
   padding-block-start: 10px;
 }
-
-/*login page styles*/
 
 .login-header {
   width: 1920px;
@@ -171,16 +152,6 @@ body {
   font-size: 35px;
   font-family: "Sonsie One", cursive;
 }
-
-/*.login-Header-name-food-list{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0px;
-  height: 0px;
-  font-size: 85px;
-  font-family: "Sonsie One", cursive;
-}*/
 
 .login-inputs {
   width: 800px;
@@ -213,7 +184,6 @@ body {
   justify-content: center;
   align-items: center;
   width: 400px;
- 
 }
 
 .button:active {
@@ -226,7 +196,6 @@ body {
   align-items: center;
 }
 .login-strap-name {
-  /* width: 900px; */
   height: 100px;
   font-size: 25px;
   font-family: "Sonsie One", cursive;
@@ -237,29 +206,22 @@ body {
   height: 80px;
 }
 
-.page-name-1{
-
+.page-name-1 {
   position: absolute;
-    top: 80px;
-    left: 150px;
-    width: px;
-    height: 100px;
-    font-size: 35px;
-    font-family: "Sonsie One", cursive;
-
-
+  top: 80px;
+  left: 150px;
+  width: px;
+  height: 100px;
+  font-size: 35px;
+  font-family: "Sonsie One", cursive;
 }
 
-.password{
-
-  background-color: rgb(239,239,193);
+.password {
+  background-color: rgb(239, 239, 193);
   border: none;
-  font-size: 25px;
+  font-size: 20px;
 }
 
-.sign-up-boxes{
-
-font-size: 15px;
-
-
+.sign-up-boxes {
+  font-size: 15px;
 }

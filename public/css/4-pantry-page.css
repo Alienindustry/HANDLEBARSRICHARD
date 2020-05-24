@@ -1,21 +1,9 @@
 .flower-page3 {
     padding-top: -200px;   
-    /* padding-left: 1300px; */
+   
     
     }
-    
-    /* .buttons-container-page3 {
-        padding-top: 350px*/
-    
-    
-        
-    
-         
-    
-    
     .input-box-page3{
-        /* /* border: none;
-        width: 652px; */
         height: 30px;
         font-size: 15px; 
     
@@ -26,13 +14,9 @@
     
     padding-top: 110px;
       width: px;
-      /* height: 100px; */
       font-size: 25px;
       font-family: "Sonsie One", cursive;
       
-    
-    
-    
     }
     
     .Man-in-fridge-2{
@@ -43,10 +27,6 @@
         height: px;
         top: 700px;
         left:1500px;
-    
-    
-    
-    
     }
     
     .food-list-container{
@@ -55,13 +35,12 @@
     justify-content: center;
     align-items: center;
     margin-top: 25px;
-        width: 220px;
-        height: 126px;
-        /* font-family "Sonsie One", cursive; */
+    width: 220px;
+    height: 126px;
     background-color: white;
     border: 1px solid grey;
     border-radius: 15px;
-    /* flex-wrap: wrap; */
+   
     
     }
     
@@ -69,15 +48,12 @@
     .food-list-boxes-buttons{
 
    margin-right: 10px;
-   /* margin-bottom: 45px; */
+   
    flex-wrap: wrap;
     
     }
 
-
-
-
-    .food-input-container{
+   .food-input-container{
     
         width: 720px;
         flex-wrap: wrap;
@@ -97,12 +73,7 @@
         padding: 15px;
     }
     
-    /* .comment-line{
     
-     background-color: #B1B1FF;
-    width: 652px;
-     height: 1px;
-    } */
     
     .flower-paragraph{
     
@@ -129,11 +100,7 @@
         
         font-size: 17px;
         font-family: "Sonsie One", cursive;
-        /* font-family: Arial, Helvetica, sans-serif; width, height and font type */
-        
-    
-        
-    
+       
     }
     .input-box-page4{
         width: 200px;
@@ -148,20 +115,9 @@
 
 
     }
-        
-        
-          
-          
-
-          .pantry-display-boxes{
-
-            display: flex;
-           
-
-
-
-
-          }
+        .pantry-display-boxes{
+          display: flex;
+           }
           .pantry-display-container{
             overflow: scroll;
              display: flex;

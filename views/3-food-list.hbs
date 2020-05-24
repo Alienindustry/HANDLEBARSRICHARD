@@ -9,141 +9,120 @@
 <body>
   <div class="container">
     <!-- this class gives the attributes the same style -->
+
     <div class="login-container">
+
       <div class="login-Header-name-food-list">
-        <h1 class="list-food3">List Your Food Items</h1>
+        {{!-- this is the header --}}
+        <h1 class="list-food3">List Your Food Items</h1> 
+
+        {{!-- This is the flower image and discription  --}}
         <div class="flower-paragraph">
           <img src="img/Two Small Flowers with Logo 1.png" class="flower-page3" height="300px" width="300px" ; />
           <p class="paragraph-food-list" style="font-size:20px">Listing your food couldn't be Simpler, just fill in the boxes with each food item, Non or Perishable and then enter their best/use by dates in the drop down calendar, click Save Food followed by My pantry to store all your food in one place, and create your very own online food bank,
-             or if you have any excess food visit our very own sister site, Livin On The Veg, and start sharing.
-           </p>
-
-          <h1 class="Paragraph-end-name" Livin onthe veg><a href="https://www.livinontheveg.co.uk">Visit Livin On The
-              Veg!</a></h1>
+             or if you have any excess food visit our very own sister site, Livin On The Veg, and start sharing.</p>
+           
+           {{!-- link to Livin on the Veg --}}
+          <h1 class="Paragraph-end-name">
+            <a href="https://www.livinontheveg.co.uk">Visit Livin On The Veg!</a>
+          </h1>
 
         </div>
-
+               {{!-- This is the image of the man in the fridge --}}
         <img src="img/Man-in-fridge1.png" class="Man-in-fridge" height="250px" width="250px" ; />
 
-
-
+        {{!-- So this is where you would input your data to your data base --}}
         <form action="/addfood" method="POST">
+          
+          
+         <div class="food-list-boxes-buttons">
 
-
-          <div class="food-list-boxes-buttons">
+           {{!-- this is where you state the food type --}}
             <div class="food-list-container">
+
+              {{!-- this is the image  --}}
               <div class="food-list-image">
                 <img src="img/Veg-drink-icon.png" class="icon-for-food-list">
               </div>
-              <div class="food-input-container">
 
+              {{!-- This is where you input food type data to send to the data base --}}
+              <div class="food-input-container">
+                
                 <div class="input-title">Food Item</div>
                 <input type="text" name="foodType" class="input-box-page3">
+                <div class="comment-line"></div>
 
-                <div class="comment-line">
-
-
-                </div>
               </div>
 
             </div>
 
-
+               {{!-- this is where you would state between perishable & non Pwerishable --}}
             <div class="food-list-container">
+              
+              {{!-- this is the image  --}} 
               <div class="food-list-image">
                 <img src="img/perishable foods.png" class="icon-for-food-list">
               </div>
+
+              {{!-- this is where the data input is --}}
               <div class="food-input-container">
 
                 <div class="input-title">Perishable/ Non Perishable</div>
-                {{!-- <input type="text" name="perishable" class="input-box-page3"> --}}
+                
+                {{!-- this where the perishable options are --}}
                 <select id="perishableType name=" class="no-box perishable">
                   <option value="perishable">Perishable</option>
                   <option value="nonPerishable">Non Perishable</option>
-
                 </select>
-                <div class="comment-line">
 
+                <div class="comment-line"></div>
 
-                </div>
+               
               </div>
 
             </div>
 
-
+               {{!-- this ie where you would  put your best before/ use by data --}}
             <div class="food-list-container">
+
+              {{!-- this is the image  --}}    
               <div class="food-list-image">
                 <img src="img/calender-icon.png" class="icon-for-food-list">
               </div>
+
+              {{!-- this is where the data input is --}}
               <div class="food-input-container">
 
                 <div class="input-title">Best Before/ Use By Dates</div>
                 <input type="date" name="sellByDate" class="input-box-page3">
-
-                <div class="comment-line">
-
-
-                </div>
+                <div class="comment-line"></div>
+                
               </div>
 
             </div>
-
-            {{!-- <div class="food-list-container">
-  <div class="food-list-image">
-    <img src="img/camera-phone2.png" class="icon-for-food-list">
-  </div>
-  <div class="food-input-container">
-    
-    <div class="input-title">Add Picture</div>
-    <input type="text" class="input-box-page3"> 
-
-    <div class="comment-line">
-
-
-    </div>
-</div>
-
-</div>
-
-<div class="food-list-container">
-  <div class="food-list-image">
-    <img src="img/meal-time-reminder.png" class="icon-for-food-list">
-  </div>
-  <div class="food-input-container">
-    
-    <div class="input-title">Meal Reminder</div>
-    <input type="text" class="input-box-page3"> 
-
-    <div class="comment-line">
-
-
-    </div>
-</div>
-
-</div> --}}
+            
+              {{!-- this is what saves the data to data base --}}
             <input type="submit" value="Save Food" class="button button1 save-food-button">
+
           </div>
         </form>
+
+        {{!-- these are the buttons that will take you to the coresponding pages  --}}
         <div class="login-button-container buttons-container-page3">
 
-          <!-- <button class="button button1 buttons-page3">Donate To LOTV</button> -->
-          <!-- <h1 class="Paragraph-end-name"Livin onthe veg> -->
           <button class="button button1" onclick="location.href='4-Pantry-page'">My Pantry</button>
           <button class="button button2 buttons-page3" onclick="location.href='1-signin'">Log Out</button>
+
         </div>
 
+             {{!-- This is the strap line --}}
         <h1 class="login-strap-name"> "Your Food At it's Best"</h1>
-
 
       </div>
 
-
-
     </div>
   </div>
 
-
-
 </body>
 
-</html
+</html>
