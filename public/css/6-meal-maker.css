@@ -2,17 +2,14 @@
   font-size: 25px;
   padding-bottom: 30px;
 
-  
 }
 
 .container-Meal-maker {
   background-color: #efefc1;
-  
   width: 1920px;
 }
 
 .login-container-page-6 {
-  
   margin-left: 300px;
 }
 
@@ -30,7 +27,6 @@
 
 .food-list-boxes-buttons-page-6 {
   overflow: scroll;
-  
   flex-direction: row;
   height: 1000px;
   flex-wrap: wrap;
@@ -62,6 +58,7 @@
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: black;
 }
+
 .save-meal-box:active {
   transform: scale(0.8);
 }

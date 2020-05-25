@@ -2,36 +2,30 @@
 padding-top: -200px;   
 
 }
-
 .input-box-page3{
-    border: none;
-    width: 652px;
-    height: 30px;
-    font-size: 15px;
-
-
+border: none;
+width: 652px;
+height: 30px;
+font-size: 15px;    
 }
 
 .login-name-page3{
-   padding-top: 110px;
-  width: px;
-  font-size: 35px;
-  font-family: "Sonsie One", cursive;
-  
-
+padding-top: 110px;
+width: px;
+font-size: 35px;
+font-family: "Sonsie One", cursive;
 
 }
 
 .Man-in-fridge{
-    position: absolute;
-    left: 80px;
-    width: px;
-    height: px;
+position: absolute;
+left: 80px;
+width: px;
+height: px;
 
 }
 
 .food-list-container{
-
 display: flex;
 justify-content: center;
 align-items: center;
@@ -51,16 +45,15 @@ border: none;
 }
 
 .icon-for-food-list{
-
 width: 60px;
 height: 6opx;
 
 }
 
 .food-list-image{
-
 width: 80px;
 padding: 15px;
+
 }
 
 .comment-line{
@@ -78,7 +71,6 @@ top: 40px;
 right: 140px;
 width: 300px;
 
-
 }
 
 .paragraph-food-list{
@@ -89,6 +81,7 @@ height: 25px;
 }
 
 .Paragraph-end-name{
+
 padding-top: 310px;
 height: 50px;
 top: 400px; 
@@ -99,6 +92,7 @@ font-family: "Sonsie One", cursive;
 }
 
 .list-food3{
+
 padding-top: 110px;
 width: px;
 font-size: 25px;
@@ -106,11 +100,15 @@ font-family: "Sonsie One", cursive;
 }
 
 .save-food-button{
+
 width: 800px;
 margin: 00px;
 margin-top: 100px;
+
 }
 
 .no-box{
+
 border: none;
+
 }

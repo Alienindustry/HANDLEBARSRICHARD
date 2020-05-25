@@ -4,14 +4,17 @@
   height: 1280px;
   width: 1920px;
 }
+
 /* code to give overall colour to screen with no borders  */
 body {
   margin: 0px;
 }
+
 .flower-image {
   height: 593.84px;
   width: 604.3px;
 }
+
 .icon {
   /* envelope icon*/
   margin: 0 !important;
@@ -30,12 +33,14 @@ body {
   display: block;
   padding-bottom: 200px;
 }
+
 .login-2 {
   margin-left: 600;
   margin-right: 10;
   display: block;
   padding-bottom: 200px;
 }
+
 .classB {
   margin-left: 0;
   margin-right: 10;
@@ -76,7 +81,6 @@ body {
   margin-bottom: 40px;
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif; /* width, height and font type */
-
   width: auto;
   width: 1000px;
 }
@@ -101,6 +105,7 @@ body {
   font-size: 30px;
   font-family: "Sonsie One", cursive;
 }
+
 /* click button with its configuration and given a transition time to go to next page 0.4s */
 .button {
   background-color: #b1b1ff; /* lavender */
@@ -110,7 +115,6 @@ body {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  /* width: 150px; */
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif; /* font type  */
   margin: 50px 100px;
@@ -118,13 +122,11 @@ body {
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   margin-bottom: 50px;
-  /* margin-top: 250px; */
 }
 
 .button {
   border-radius: 8px;
   color: black;
-  /* margin-top: 250px; */
 }
 
 .button {
@@ -136,7 +138,6 @@ body {
   width: 100%;
   align-items: baseline;
 }
-
 
 .password-reset {
   height: 0;
@@ -159,6 +160,7 @@ body {
   align-items: center;
   position: relative;
 }
+
 .login-name {
   position: absolute;
   top: 60;
@@ -169,12 +171,9 @@ body {
   font-family: "Sonsie One", cursive;
 }
 
-
-
 .login-inputs {
   width: 800px;
   height: 180px;
-  /* margin: -150px; */
 }
 
 .login-container {
@@ -192,7 +191,6 @@ body {
   border: 0;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
-  /* font-family: "Sonsie One", cursive; */
 }
 
 .password-container {
@@ -200,7 +198,6 @@ body {
   justify-content: center;
   align-items: center;
   width: 400px;
-  
 }
 
 .login-button-container {
@@ -209,8 +206,8 @@ body {
   align-items: center;
   margin: 70px;
 }
+
 .login-strap-name {
-  /* width: 900px; */
   height: 100px;
   font-size: 25px;
   font-family: "Sonsie One", cursive;
@@ -218,9 +215,9 @@ body {
   color: black;
   margin: -70px;
 }
+
 .inputrow {
   height: 80px;
-  /* margin-top: 100px; */
 }
 
 .account-text {
@@ -245,14 +242,12 @@ body {
 }
 
 .reset-flower-page-8 {
-  /* position: absolute; */
   margin-top: 40px;
 }
 
 .reset-password-page-8 {
   font-family: "Sonsie One", cursive;
   padding-top: 250px;
-  /* left: 850px; */
   font-size: 30px;
   position: absolute;
 }
@@ -274,10 +269,8 @@ body {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  /* width: 150px; */
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
-  /* margin: 50px 500px; */
   cursor: pointer;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
@@ -309,18 +302,13 @@ body {
   position: absolute;
 }
 
-
-
 .Logins-button-container-page-10 {
-  /* background-color: #b1b1ff; */
   margin-left: 750px;
   border-radius: 10px;
   color: black;
   padding: 15px;
   text-align: center;
   text-decoration: none;
-  /* display: inline-block; */
-  /* width: 150px; */
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
   margin: 50px 500px;
@@ -328,11 +316,9 @@ body {
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   margin-bottom: 50px;
-  
 }
 
 .reset-button-container-page-8 {
-  
   margin: 50;
 }
 
@@ -386,6 +372,7 @@ body {
 .wellcome-back-page-9 {
   font-family: "Sonsie One", cursive;
 }
+
 .welldone-back-page-9 {
   font-family: "Sonsie One", cursive;
 }
@@ -393,11 +380,10 @@ body {
 .whoop-whoop-page-9 {
   font-family: "Sonsie One", cursive;
 }
+
 .whoop-login {
   margin-top: 200px;
-
   background-color: #b1b1ff;
-
   border-radius: 10px;
   color: black;
   padding: 15px;
@@ -412,11 +398,18 @@ body {
   transition-duration: 0.4s;
   margin-bottom: 50px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  
-  
 }
 
 .button:active {
-  transform: scale(0.8);
+ transform: scale(0.8);
 }
 
+.welcome-back-quote-page-line-2{
+
+  padding-top: 210px;
+  position: absolute;
+  bottom: 350px;
+  position: absolute;
+  color: gray;
+
+}
